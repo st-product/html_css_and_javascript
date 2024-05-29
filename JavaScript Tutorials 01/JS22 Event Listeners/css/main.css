@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    font: Arial 1.5rem;
+    background-color: #fff;
+    color: #fff;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+nav {
+    background-color: #000;
+}
+
+#view2 {
+    margin-top: 100px;
+    width: 400px;
+    height: 300px;
+    
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.darkblue{
+    background-color: darkblue;
+}
+
+.purple{
+    background-color: purple;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.black{
+    background-color: #000;
+}
+
+.blue{
+    background-color: blue;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.height100 {
+    height: 100px;
+}
+
+#view3 {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#form {
+    margin-top: 100px;
+    display: block;
+    align-items: center;
+    flex-direction: column;
+}
+
+label{
+    color: #000;
+}
+
+input {
+    margin: 10px 0;
+    padding: 2px;
+}
+
+button {
+    margin-left: 120px;
+    padding: 2px;
+}

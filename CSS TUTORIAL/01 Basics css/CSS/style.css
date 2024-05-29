@@ -1,0 +1,25 @@
+body{
+    font-family: monospace;
+}
+
+p span{
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+p{
+    color: purple;
+}
+
+.gray {
+    color: gray;
+}
+main p{
+    color: red;
+}
+#italic{
+    font-style: italic;
+}
+h1, h2{
+    color: blue;
+}

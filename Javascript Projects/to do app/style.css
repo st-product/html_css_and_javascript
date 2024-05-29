@@ -1,0 +1,106 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(31, 31, 31);
+    margin: 0;
+    padding: 0;
+}
+
+.continer {
+    max-width: 400px;
+    margin: 120px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    border-radius: 0;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: rgb(70, 142, 224);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(0, 183, 255);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.delete-button {
+    background-color: rgb(204, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: rgb(138, 0, 0);
+}
+
+.edit-button {
+    background-color: rgb(214, 214, 0);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+    background-color: rgb(179, 179, 0);
+}

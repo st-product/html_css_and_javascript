@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 7rem;
+    font-weight: bold;
+}
+
+button {
+    font-size: 2rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: hsl(194, 92%, 40%);
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(194, 92%, 50%);
+}
+
+button:active{
+    background-color: hsl(194, 92%, 70%);
+}
